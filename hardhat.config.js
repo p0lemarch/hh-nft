@@ -29,7 +29,9 @@ module.exports = {
             saveDeployments: true,
         },
     },
-    solidity: "0.8.7",
+    solidity: {
+        compilers: [{ version: "0.8.7" }, { version: "0.6.6" }],
+    },
     gasReporter: {
         enabled: true,
         currency: "USD",

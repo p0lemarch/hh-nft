@@ -11,6 +11,7 @@ const networkConfig = {
         interval: "6",
         gasPrice: 120000000000,
         mintFee: "10000000000000000",
+        ethUsdPriceFeed: "0xd4a33860578de61dbabdc8bfdb98fd742fa7028e",
     },
     31337: {
         name: "localhost",
